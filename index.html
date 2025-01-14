@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji String Matcher Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <h1>Emoji String Matcher Tester</h1>
+            <div class="top-controls">
+                <label for="content-input">Content String:</label>
+                <input type="text" id="content-input" placeholder="Enter your text here with emojis">
+				<h4 class="active-header">Active String:</h4>
+				<div class="active-string">
+					<p id="active-string"></p></div>
+				<div id="match-type">
+					<label>Match Type:</label>
+					<div class="radio-wrapper">
+						<input type="radio" id="word" name="match-type" value="word" checked>
+						<label for="word">"match"</label>
+					</div>
+					<div class="radio-wrapper">
+						<input type="radio" id="hashtag" name="match-type" value="hashtag">
+						<label for="hashtag">Hashtags</label>
+					</div>
+					<div class="radio-wrapper">
+						<input type="radio" id="emoji" name="match-type" value="emoji">
+						<label for="emoji">Emoji</label>
+					</div>
+				</div>
+			</div>
+
+            <div class="js-info">
+				<h3>String Match-Highlight in JavaScript</h3>
+				<div id="js-result-display"></div>
+				<h3>Match Information (JavaScript Behavior):</h3>
+				<div id="js-info-display"></div>
+				<h3>String as JS Array</h3>
+				<div class="array" id="js-array-display"></div>
+            </div>
+
+            <div class="ae-default-info">
+				<h3 class="aenh">String Match-Highlight, Rendered in AE (using JS match info):</h3>
+				<div id="ae-default-result-display"></div>
+				<h3>AE-Rendered String Array, Showing Misaligned Matches:</h3>
+				<div class="array" id="ae-default-array-display"></div>
+            </div>
+
+			<div class="ae-fixed-info">
+				<h3 class="aef">String Match-Highlight, Rendered in AE (using <i>fixed</i> match info):</h3>
+				<div id="ae-fixed-result-display"></div>
+				<h3 class="aef">Match Information <i>(Fixed for After Effects)</i>:</h3>
+				<div id="ae-fixed-info-display"></div>
+				<h3>AE-Rendered String as JS Array</h3>
+				<div class="array" id="ae-fixed-array-display"></div>
+			</div>
+        </div>
+
+    </div>
+    <script src="index.js" defer></script>
+</body>
+</html>
