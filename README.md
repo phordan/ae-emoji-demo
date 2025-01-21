@@ -1,6 +1,6 @@
 This is a simple HTML/JS/CSS page that I built to illustrate (and work through) why and how exactly the precense of emoji can cause differences in the character length of computed and rendered references of the same input string in After Effect's text layers.
 
-View the demo live at [ae-emoji.phordan.com]()
+View the demo live at [ae-emoji.phordan.com](ae-emoji.phordan.com)
 
 ## The problem was simple:
 
