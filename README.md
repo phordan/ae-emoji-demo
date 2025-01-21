@@ -2,6 +2,8 @@ This is a simple HTML/JS/CSS page that I built to illustrate (and work through) 
 
 View the demo live at [ae-emoji.phordan.com](http://ae-emoji.phordan.com)
 
+![image](https://github.com/user-attachments/assets/eae56f3a-07c0-4b63-b3f4-1304201af852)
+
 ## The problem was simple:
 
 In JavaScript, strings can also be represented as arrays, a 'list', where each character is an entry.   
